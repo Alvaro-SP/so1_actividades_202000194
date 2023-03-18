@@ -1,0 +1,9 @@
+[Unit]
+Description=Saludo y fecha actual
+
+[Service]
+Type=simple
+ExecStart=/home/droid/Desktop/saludo.sh
+
+[Install]
+WantedBy=multi-user.target
